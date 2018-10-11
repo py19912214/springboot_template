@@ -1,0 +1,583 @@
+2018-10-10 15:04:47.957  INFO main@  com.oss.checkout.Bootstrap[logStarting:48] - Starting Bootstrap on yuedeMacBook-Pro.local with PID 11337 (/Users/yuepan/git_project/springboot_template/oss-boot/target/classes started by yuepan in /Users/yuepan/git_project/springboot_template)
+2018-10-10 15:04:47.996  DEBUG main@  com.oss.checkout.Bootstrap[logStarting:51] - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2018-10-10 15:04:48.002  INFO main@  com.oss.checkout.Bootstrap[logStartupProfileInfo:593] - No active profile set, falling back to default profiles: default
+2018-10-10 15:04:48.181  INFO main@  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext[prepareRefresh:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4bf48f6: startup date [Wed Oct 10 15:04:48 CST 2018]; root of context hierarchy
+2018-10-10 15:04:48.311  DEBUG background-preinit@  org.jboss.logging[logProvider:160] - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-10-10 15:04:48.367  DEBUG background-preinit@  org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver[detectJPA:70] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-10-10 15:04:50.232  DEBUG main@  org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver[detectJPA:70] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-10-10 15:04:50.249  DEBUG main@  org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver[detectJPA:70] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-10-10 15:04:50.254  DEBUG main@  org.hibernate.validator.internal.engine.ConfigurationImpl[messageInterpolator:163] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-10-10 15:04:50.254  DEBUG main@  org.hibernate.validator.internal.engine.ConfigurationImpl[constraintValidatorFactory:185] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-10-10 15:04:50.255  DEBUG main@  org.hibernate.validator.internal.engine.ConfigurationImpl[parameterNameProvider:199] - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy57
+2018-10-10 15:04:50.257  DEBUG main@  org.hibernate.validator.internal.xml.ValidationXmlParser[getValidationXmlInputStream:99] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-10-10 15:04:50.259  DEBUG main@  org.hibernate.validator.internal.xml.ResourceLoaderHelper[getResettableInputStreamForPath:47] - Trying to load META-INF/validation.xml via user class loader
+2018-10-10 15:04:50.260  DEBUG main@  org.hibernate.validator.internal.xml.ResourceLoaderHelper[getResettableInputStreamForPath:54] - Trying to load META-INF/validation.xml via TCCL
+2018-10-10 15:04:50.261  DEBUG main@  org.hibernate.validator.internal.xml.ResourceLoaderHelper[getResettableInputStreamForPath:60] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-10-10 15:04:50.261  DEBUG main@  org.hibernate.validator.internal.xml.ValidationXmlParser[getValidationXmlInputStream:106] - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-10-10 15:04:50.569  INFO main@  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer[initialize:89] - Tomcat initialized with port(s): 8080 (http)
+2018-10-10 15:04:50.577  INFO main@  org.apache.catalina.core.StandardService[log:179] - Starting service [Tomcat]
+2018-10-10 15:04:50.580  INFO main@  org.apache.catalina.core.StandardEngine[log:179] - Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-10-10 15:04:50.643  INFO localhost-startStop-1@  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/file-management][log:179] - Initializing Spring embedded WebApplicationContext
+2018-10-10 15:04:50.643  INFO localhost-startStop-1@  org.springframework.web.context.ContextLoader[prepareEmbeddedWebApplicationContext:276] - Root WebApplicationContext: initialization completed in 2462 ms
+2018-10-10 15:04:50.741  INFO localhost-startStop-1@  org.springframework.boot.web.servlet.ServletRegistrationBean[onStartup:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-10-10 15:04:50.744  INFO localhost-startStop-1@  org.springframework.boot.web.servlet.FilterRegistrationBean[configure:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-10 15:04:50.744  INFO localhost-startStop-1@  org.springframework.boot.web.servlet.FilterRegistrationBean[configure:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-10 15:04:50.745  INFO localhost-startStop-1@  org.springframework.boot.web.servlet.FilterRegistrationBean[configure:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-10 15:04:50.745  INFO localhost-startStop-1@  org.springframework.boot.web.servlet.FilterRegistrationBean[configure:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-10 15:04:50.745  INFO localhost-startStop-1@  org.springframework.boot.web.servlet.FilterRegistrationBean[configure:258] - Mapping filter: 'commonFilter' to: [/*]
+2018-10-10 15:04:50.770  DEBUG localhost-startStop-1@  com.oss.checkout.config.filter.CommonFilter$$EnhancerBySpringCGLIB$$c410e90a[init:208] - Initializing filter 'commonFilter'
+2018-10-10 15:04:50.770  DEBUG localhost-startStop-1@  com.oss.checkout.config.filter.CommonFilter$$EnhancerBySpringCGLIB$$c410e90a[init:239] - Filter 'commonFilter' configured successfully
+2018-10-10 15:04:51.207  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/oss/v1/resouce/],methods=[POST]}" onto public java.lang.String com.oss.checkout.business.oss.controller.OssOperateController.uploadFile(com.service.checkout.oss.model.OssUploadRequest) throws java.lang.Exception
+2018-10-10 15:04:51.219  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/oss/v1/resouce/],methods=[GET]}" onto public java.lang.String com.oss.checkout.business.oss.controller.OssOperateController.getDownloadUrl(com.service.checkout.oss.model.OssGetUrlRequest)
+2018-10-10 15:04:51.220  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/oss/v1/resouce/flow],methods=[POST]}" onto public java.lang.String com.oss.checkout.business.oss.controller.OssOperateController.uploadFileFlow(com.service.checkout.oss.model.OssFlowUploadRequest) throws java.lang.Exception
+2018-10-10 15:04:51.221  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/oss/v1/resouce/flow],methods=[GET]}" onto public void com.oss.checkout.business.oss.controller.OssOperateController.downloadFileFlow(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-10-10 15:04:51.222  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-10-10 15:04:51.226  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-10-10 15:04:51.227  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-10-10 15:04:51.228  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-10-10 15:04:51.231  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-10 15:04:51.232  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-10 15:04:51.384  DEBUG main@  org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver[detectJPA:70] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-10-10 15:04:51.396  DEBUG main@  org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver[detectJPA:70] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-10-10 15:04:51.396  DEBUG main@  org.hibernate.validator.internal.engine.ConfigurationImpl[messageInterpolator:163] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-10-10 15:04:51.397  DEBUG main@  org.hibernate.validator.internal.engine.ConfigurationImpl[constraintValidatorFactory:185] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-10-10 15:04:51.397  DEBUG main@  org.hibernate.validator.internal.engine.ConfigurationImpl[parameterNameProvider:199] - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy57
+2018-10-10 15:04:51.398  DEBUG main@  org.hibernate.validator.internal.xml.ValidationXmlParser[getValidationXmlInputStream:99] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-10-10 15:04:51.398  DEBUG main@  org.hibernate.validator.internal.xml.ResourceLoaderHelper[getResettableInputStreamForPath:47] - Trying to load META-INF/validation.xml via user class loader
+2018-10-10 15:04:51.398  DEBUG main@  org.hibernate.validator.internal.xml.ResourceLoaderHelper[getResettableInputStreamForPath:54] - Trying to load META-INF/validation.xml via TCCL
+2018-10-10 15:04:51.399  DEBUG main@  org.hibernate.validator.internal.xml.ResourceLoaderHelper[getResettableInputStreamForPath:60] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-10-10 15:04:51.399  DEBUG main@  org.hibernate.validator.internal.xml.ValidationXmlParser[getValidationXmlInputStream:106] - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-10-10 15:04:51.564  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter[initControllerAdviceCache:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4bf48f6: startup date [Wed Oct 10 15:04:48 CST 2018]; root of context hierarchy
+2018-10-10 15:04:51.637  INFO main@  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[registerHandler:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-10 15:04:51.637  INFO main@  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[registerHandler:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-10 15:04:51.661  INFO main@  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver[initExceptionHandlerAdviceCache:273] - Detected @ExceptionHandler methods in commonAbstractController
+2018-10-10 15:04:51.692  INFO main@  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[registerHandler:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-10 15:04:51.955  INFO main@  org.springframework.jmx.export.annotation.AnnotationMBeanExporter[afterSingletonsInstantiated:431] - Registering beans for JMX exposure on startup
+2018-10-10 15:04:51.967  INFO main@  org.springframework.context.support.DefaultLifecycleProcessor[start:343] - Starting beans in phase 2147483647
+2018-10-10 15:04:51.967  INFO main@  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper[start:120] - Context refreshed
+2018-10-10 15:04:51.987  INFO main@  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper[start:123] - Found 1 custom documentation plugin(s)
+2018-10-10 15:04:52.000  INFO main@  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner[scan:41] - Scanning for api listing references
+2018-10-10 15:04:52.024  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectFromReturnType:76] - Adding return parameter of type Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+2018-10-10 15:04:52.025  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:83] - Reading parameters models for handlerMethod |error|
+2018-10-10 15:04:52.027  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:94] - Finished reading parameters models for handlerMethod |error|
+2018-10-10 15:04:52.029  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider[collectApiResponses:84] - Reading parameters models for handlerMethod |error|
+2018-10-10 15:04:52.036  DEBUG main@  springfox.documentation.schema.DefaultModelProvider[modelFor:80] - Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+2018-10-10 15:04:52.038  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[read:74] - Did not find any parameter models for java.util.Map<java.lang.String,java.lang.Object>
+2018-10-10 15:04:52.038  DEBUG main@  springfox.documentation.schema.DefaultModelDependencyProvider[resolvedDependencies:99] - Marking base type Ljava/lang/Object; as seen
+2018-10-10 15:04:52.051  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:Map«string,object»
+2018-10-10 15:04:52.055  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method error
+2018-10-10 15:04:52.056  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:Map«string,object»
+2018-10-10 15:04:52.063  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:Map«string,object»
+2018-10-10 15:04:52.065  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method error
+2018-10-10 15:04:52.066  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:Map«string,object»
+2018-10-10 15:04:52.070  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:Map«string,object»
+2018-10-10 15:04:52.073  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method error
+2018-10-10 15:04:52.075  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:Map«string,object»
+2018-10-10 15:04:52.078  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:Map«string,object»
+2018-10-10 15:04:52.079  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method error
+2018-10-10 15:04:52.081  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:Map«string,object»
+2018-10-10 15:04:52.084  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:Map«string,object»
+2018-10-10 15:04:52.085  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method error
+2018-10-10 15:04:52.086  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:Map«string,object»
+2018-10-10 15:04:52.089  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:Map«string,object»
+2018-10-10 15:04:52.090  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method error
+2018-10-10 15:04:52.091  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:Map«string,object»
+2018-10-10 15:04:52.094  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:Map«string,object»
+2018-10-10 15:04:52.096  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method error
+2018-10-10 15:04:52.097  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:Map«string,object»
+2018-10-10 15:04:52.100  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:Map«string,object»
+2018-10-10 15:04:52.101  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method error
+2018-10-10 15:04:52.102  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:Map«string,object»
+2018-10-10 15:04:52.115  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectFromReturnType:76] - Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+2018-10-10 15:04:52.115  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:83] - Reading parameters models for handlerMethod |errorHtml|
+2018-10-10 15:04:52.116  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:94] - Finished reading parameters models for handlerMethod |errorHtml|
+2018-10-10 15:04:52.117  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider[collectApiResponses:84] - Reading parameters models for handlerMethod |errorHtml|
+2018-10-10 15:04:52.147  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property view
+2018-10-10 15:04:52.151  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getView
+2018-10-10 15:04:52.152  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForSerialization:60] - Name 'view' renamed to 'view'
+2018-10-10 15:04:52.152  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property view to model
+2018-10-10 15:04:52.153  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getView
+2018-10-10 15:04:52.153  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getView
+2018-10-10 15:04:52.153  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getView
+2018-10-10 15:04:52.158  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getView
+2018-10-10 15:04:52.160  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property model
+2018-10-10 15:04:52.161  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModel
+2018-10-10 15:04:52.161  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForSerialization:60] - Name 'model' renamed to 'model'
+2018-10-10 15:04:52.161  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property model to model
+2018-10-10 15:04:52.161  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModel
+2018-10-10 15:04:52.161  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModel
+2018-10-10 15:04:52.161  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModel
+2018-10-10 15:04:52.162  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModel
+2018-10-10 15:04:52.162  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property status
+2018-10-10 15:04:52.162  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getStatus
+2018-10-10 15:04:52.163  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForSerialization:60] - Name 'status' renamed to 'status'
+2018-10-10 15:04:52.163  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property status to model
+2018-10-10 15:04:52.163  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getStatus
+2018-10-10 15:04:52.163  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getStatus
+2018-10-10 15:04:52.163  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getStatus
+2018-10-10 15:04:52.163  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getStatus
+2018-10-10 15:04:52.241  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property empty
+2018-10-10 15:04:52.241  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isEmpty
+2018-10-10 15:04:52.241  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForSerialization:60] - Name 'empty' renamed to 'empty'
+2018-10-10 15:04:52.241  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property empty to model
+2018-10-10 15:04:52.241  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isEmpty
+2018-10-10 15:04:52.242  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isEmpty
+2018-10-10 15:04:52.243  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isEmpty
+2018-10-10 15:04:52.244  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isEmpty
+2018-10-10 15:04:52.244  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property modelMap
+2018-10-10 15:04:52.245  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModelMap
+2018-10-10 15:04:52.245  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForSerialization:60] - Name 'modelMap' renamed to 'modelMap'
+2018-10-10 15:04:52.245  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property modelMap to model
+2018-10-10 15:04:52.245  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModelMap
+2018-10-10 15:04:52.245  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModelMap
+2018-10-10 15:04:52.246  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModelMap
+2018-10-10 15:04:52.246  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModelMap
+2018-10-10 15:04:52.246  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property viewName
+2018-10-10 15:04:52.246  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getViewName
+2018-10-10 15:04:52.246  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForSerialization:60] - Name 'viewName' renamed to 'viewName'
+2018-10-10 15:04:52.246  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property viewName to model
+2018-10-10 15:04:52.247  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getViewName
+2018-10-10 15:04:52.247  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getViewName
+2018-10-10 15:04:52.247  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getViewName
+2018-10-10 15:04:52.247  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getViewName
+2018-10-10 15:04:52.247  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property reference
+2018-10-10 15:04:52.248  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isReference
+2018-10-10 15:04:52.248  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForSerialization:60] - Name 'reference' renamed to 'reference'
+2018-10-10 15:04:52.248  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property reference to model
+2018-10-10 15:04:52.248  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isReference
+2018-10-10 15:04:52.248  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isReference
+2018-10-10 15:04:52.249  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isReference
+2018-10-10 15:04:52.250  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isReference
+2018-10-10 15:04:52.262  DEBUG main@  springfox.documentation.schema.DefaultModelProvider[modelFor:86] - Inferred 7 properties. Properties found empty, model, modelMap, reference, status, view, viewName
+2018-10-10 15:04:52.263  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[read:69] - Generated parameter model id: ModelAndView, name: ModelAndView, schema: {} models
+2018-10-10 15:04:52.263  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[mergeModelMap:87] - Adding a new model with key ModelAndView
+2018-10-10 15:04:52.264  DEBUG main@  springfox.documentation.schema.DefaultModelDependencyProvider[resolvedPropertiesAndFields:139] - Adding type Lorg/springframework/ui/ModelMap; for parameter modelMap
+2018-10-10 15:04:52.265  DEBUG main@  springfox.documentation.schema.DefaultModelDependencyProvider[maybeFromMapValueType:196] - Recursively resolving dependencies for value type Ljava/lang/Object;
+2018-10-10 15:04:52.265  DEBUG main@  springfox.documentation.schema.DefaultModelDependencyProvider[resolvedDependencies:99] - Marking base type Ljava/lang/Object; as seen
+2018-10-10 15:04:52.265  DEBUG main@  springfox.documentation.schema.DefaultModelDependencyProvider[resolvedPropertiesAndFields:139] - Adding type Lorg/springframework/web/servlet/View; for parameter view
+2018-10-10 15:04:52.265  DEBUG main@  springfox.documentation.schema.DefaultModelDependencyProvider[maybeFromRegularType:168] - Recursively resolving dependencies for type Lorg/springframework/web/servlet/View;
+2018-10-10 15:04:52.331  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property contentType
+2018-10-10 15:04:52.331  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getContentType
+2018-10-10 15:04:52.332  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForSerialization:60] - Name 'contentType' renamed to 'contentType'
+2018-10-10 15:04:52.332  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property contentType to model
+2018-10-10 15:04:52.332  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getContentType
+2018-10-10 15:04:52.332  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getContentType
+2018-10-10 15:04:52.333  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getContentType
+2018-10-10 15:04:52.334  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getContentType
+2018-10-10 15:04:52.338  DEBUG main@  springfox.documentation.schema.DefaultModelProvider[modelFor:86] - Inferred 1 properties. Properties found contentType
+2018-10-10 15:04:52.339  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[mergeModelMap:87] - Adding a new model with key View
+2018-10-10 15:04:52.344  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:ModelAndView
+2018-10-10 15:04:52.345  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method errorHtml
+2018-10-10 15:04:52.346  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:ModelAndView
+2018-10-10 15:04:52.348  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:ModelAndView
+2018-10-10 15:04:52.349  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method errorHtml
+2018-10-10 15:04:52.350  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:ModelAndView
+2018-10-10 15:04:52.361  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:ModelAndView
+2018-10-10 15:04:52.362  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method errorHtml
+2018-10-10 15:04:52.363  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:ModelAndView
+2018-10-10 15:04:52.365  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:ModelAndView
+2018-10-10 15:04:52.366  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method errorHtml
+2018-10-10 15:04:52.367  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:ModelAndView
+2018-10-10 15:04:52.373  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:ModelAndView
+2018-10-10 15:04:52.376  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method errorHtml
+2018-10-10 15:04:52.379  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:ModelAndView
+2018-10-10 15:04:52.381  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:ModelAndView
+2018-10-10 15:04:52.382  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method errorHtml
+2018-10-10 15:04:52.383  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:ModelAndView
+2018-10-10 15:04:52.385  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:ModelAndView
+2018-10-10 15:04:52.390  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method errorHtml
+2018-10-10 15:04:52.393  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:ModelAndView
+2018-10-10 15:04:52.397  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:ModelAndView
+2018-10-10 15:04:52.398  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method errorHtml
+2018-10-10 15:04:52.399  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:ModelAndView
+2018-10-10 15:04:52.432  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectFromReturnType:76] - Adding return parameter of type V
+2018-10-10 15:04:52.432  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:83] - Reading parameters models for handlerMethod |downloadFileFlow|
+2018-10-10 15:04:52.433  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:94] - Finished reading parameters models for handlerMethod |downloadFileFlow|
+2018-10-10 15:04:52.433  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider[collectApiResponses:84] - Reading parameters models for handlerMethod |downloadFileFlow|
+2018-10-10 15:04:52.434  DEBUG main@  springfox.documentation.schema.DefaultModelProvider[modelFor:80] - Skipping model of type V as its either a container type, map, enum or base type, or its already been handled
+2018-10-10 15:04:52.434  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[read:74] - Did not find any parameter models for void
+2018-10-10 15:04:52.435  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:null
+2018-10-10 15:04:52.436  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method downloadFileFlow
+2018-10-10 15:04:52.448  DEBUG main@  springfox.documentation.swagger.readers.operation.VendorExtensionsReader[apply:59] - Extension count 1 for method downloadFileFlow
+2018-10-10 15:04:52.449  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectFromReturnType:76] - Adding return parameter of type Ljava/lang/String;
+2018-10-10 15:04:52.449  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:83] - Reading parameters models for handlerMethod |getDownloadUrl|
+2018-10-10 15:04:52.450  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:94] - Finished reading parameters models for handlerMethod |getDownloadUrl|
+2018-10-10 15:04:52.450  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider[collectApiResponses:84] - Reading parameters models for handlerMethod |getDownloadUrl|
+2018-10-10 15:04:52.450  DEBUG main@  springfox.documentation.schema.DefaultModelProvider[modelFor:80] - Skipping model of type Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+2018-10-10 15:04:52.451  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[read:74] - Did not find any parameter models for java.lang.String
+2018-10-10 15:04:52.451  DEBUG main@  springfox.documentation.schema.DefaultModelDependencyProvider[resolvedDependencies:99] - Marking base type Ljava/lang/String; as seen
+2018-10-10 15:04:52.463  DEBUG main@  springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander[expand:82] - Expanding parameter type: com.service.checkout.oss.model.OssGetUrlRequest
+2018-10-10 15:04:52.469  DEBUG main@  springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander[simpleFields:146] - Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@32121140
+2018-10-10 15:04:52.469  DEBUG main@  springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander[simpleFields:149] - Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@32121140, with type: 
+2018-10-10 15:04:52.472  DEBUG main@  springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander[simpleFields:146] - Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@394b9e22
+2018-10-10 15:04:52.472  DEBUG main@  springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander[simpleFields:149] - Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@394b9e22, with type: 
+2018-10-10 15:04:52.472  DEBUG main@  springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander[simpleFields:146] - Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6e0f259e
+2018-10-10 15:04:52.472  DEBUG main@  springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander[simpleFields:149] - Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6e0f259e, with type: 
+2018-10-10 15:04:52.472  DEBUG main@  springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander[simpleFields:146] - Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4fe9adfb
+2018-10-10 15:04:52.472  DEBUG main@  springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander[simpleFields:149] - Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4fe9adfb, with type: 
+2018-10-10 15:04:52.477  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:string
+2018-10-10 15:04:52.479  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method getDownloadUrl
+2018-10-10 15:04:52.483  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:string
+2018-10-10 15:04:52.484  DEBUG main@  springfox.documentation.swagger.readers.operation.VendorExtensionsReader[apply:59] - Extension count 1 for method getDownloadUrl
+2018-10-10 15:04:52.485  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectFromReturnType:76] - Adding return parameter of type Ljava/lang/String;
+2018-10-10 15:04:52.486  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:83] - Reading parameters models for handlerMethod |uploadFile|
+2018-10-10 15:04:52.487  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:90] - Adding input parameter of type Lcom/service/checkout/oss/model/OssUploadRequest;
+2018-10-10 15:04:52.488  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:94] - Finished reading parameters models for handlerMethod |uploadFile|
+2018-10-10 15:04:52.491  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider[collectApiResponses:84] - Reading parameters models for handlerMethod |uploadFile|
+2018-10-10 15:04:52.491  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[read:74] - Did not find any parameter models for java.lang.String
+2018-10-10 15:04:52.492  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property bucketName
+2018-10-10 15:04:52.493  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setBucketName
+2018-10-10 15:04:52.493  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForDeserialization:76] - Name 'bucketName' renamed to 'bucketName'
+2018-10-10 15:04:52.493  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property bucketName to model
+2018-10-10 15:04:52.493  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setBucketName
+2018-10-10 15:04:52.493  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setBucketName
+2018-10-10 15:04:52.494  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setBucketName
+2018-10-10 15:04:52.494  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setBucketName
+2018-10-10 15:04:52.497  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property objectName
+2018-10-10 15:04:52.497  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setObjectName
+2018-10-10 15:04:52.497  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForDeserialization:76] - Name 'objectName' renamed to 'objectName'
+2018-10-10 15:04:52.497  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property objectName to model
+2018-10-10 15:04:52.497  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setObjectName
+2018-10-10 15:04:52.497  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setObjectName
+2018-10-10 15:04:52.498  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setObjectName
+2018-10-10 15:04:52.498  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setObjectName
+2018-10-10 15:04:52.498  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property shareFlag
+2018-10-10 15:04:52.498  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setShareFlag
+2018-10-10 15:04:52.498  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForDeserialization:76] - Name 'shareFlag' renamed to 'shareFlag'
+2018-10-10 15:04:52.498  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property shareFlag to model
+2018-10-10 15:04:52.498  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setShareFlag
+2018-10-10 15:04:52.499  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setShareFlag
+2018-10-10 15:04:52.499  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setShareFlag
+2018-10-10 15:04:52.500  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setShareFlag
+2018-10-10 15:04:52.501  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property content
+2018-10-10 15:04:52.502  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setContent
+2018-10-10 15:04:52.503  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForDeserialization:76] - Name 'content' renamed to 'content'
+2018-10-10 15:04:52.504  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property content to model
+2018-10-10 15:04:52.505  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setContent
+2018-10-10 15:04:52.509  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setContent
+2018-10-10 15:04:52.509  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setContent
+2018-10-10 15:04:52.510  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setContent
+2018-10-10 15:04:52.510  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property coveredFlag
+2018-10-10 15:04:52.510  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setCoveredFlag
+2018-10-10 15:04:52.511  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForDeserialization:76] - Name 'coveredFlag' renamed to 'coveredFlag'
+2018-10-10 15:04:52.511  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property coveredFlag to model
+2018-10-10 15:04:52.511  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setCoveredFlag
+2018-10-10 15:04:52.511  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setCoveredFlag
+2018-10-10 15:04:52.511  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setCoveredFlag
+2018-10-10 15:04:52.511  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setCoveredFlag
+2018-10-10 15:04:52.512  DEBUG main@  springfox.documentation.schema.DefaultModelProvider[modelFor:86] - Inferred 5 properties. Properties found bucketName, content, coveredFlag, objectName, shareFlag
+2018-10-10 15:04:52.512  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[read:69] - Generated parameter model id: OssUploadRequest, name: OssUploadRequest, schema: {} models
+2018-10-10 15:04:52.512  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[mergeModelMap:87] - Adding a new model with key OssUploadRequest
+2018-10-10 15:04:52.516  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:string
+2018-10-10 15:04:52.516  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method uploadFile
+2018-10-10 15:04:52.519  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:string
+2018-10-10 15:04:52.521  DEBUG main@  springfox.documentation.swagger.readers.operation.VendorExtensionsReader[apply:59] - Extension count 1 for method uploadFile
+2018-10-10 15:04:52.524  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectFromReturnType:76] - Adding return parameter of type Ljava/lang/String;
+2018-10-10 15:04:52.524  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:83] - Reading parameters models for handlerMethod |uploadFileFlow|
+2018-10-10 15:04:52.527  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:94] - Finished reading parameters models for handlerMethod |uploadFileFlow|
+2018-10-10 15:04:52.528  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider[collectApiResponses:84] - Reading parameters models for handlerMethod |uploadFileFlow|
+2018-10-10 15:04:52.528  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[read:74] - Did not find any parameter models for java.lang.String
+2018-10-10 15:04:52.530  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:string
+2018-10-10 15:04:52.530  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method uploadFileFlow
+2018-10-10 15:04:52.531  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:string
+2018-10-10 15:04:52.531  DEBUG main@  springfox.documentation.swagger.readers.operation.VendorExtensionsReader[apply:59] - Extension count 1 for method uploadFileFlow
+2018-10-10 15:04:52.635  INFO main@  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer[start:201] - Tomcat started on port(s): 8080 (http)
+2018-10-10 15:04:52.647  INFO main@  com.oss.checkout.Bootstrap[logStarted:57] - Started Bootstrap in 5.32 seconds (JVM running for 6.06)
+2018-10-10 15:05:03.913  INFO http-nio-8080-exec-1@  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/file-management][log:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-10-10 15:05:03.915  INFO http-nio-8080-exec-1@  org.springframework.web.servlet.DispatcherServlet[initServletBean:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2018-10-10 15:05:03.934  INFO http-nio-8080-exec-1@  org.springframework.web.servlet.DispatcherServlet[initServletBean:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2018-10-10 15:05:03.944  DEBUG http-nio-8080-exec-1@  com.oss.checkout.config.filter.CommonFilter[doFilterInternal:45] - 请求header信息:host:localhost:8080,connection:keep-alive,cache-control:max-age=0,upgrade-insecure-requests:1,user-agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36,accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,accept-encoding:gzip, deflate, br,accept-language:zh-CN,zh;q=0.9,cookie:_ga=GA1.1.729985436.1537175227; Idea-817e1006=0a3ec97a-d53f-4a48-9df0-4d54b32e5d81; Authorization=bearer:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyTmFtZSI6InBhbiIsImlzcyI6Imttb2JpbGUiLCJhdWQiOiJjNjI0MWM2MWIzM2Y0YThmNzIxN2ZlZDQzM2ZmODgwMyIsImV4cCI6MTUzOTE1NDAwOCwibmJmIjoxNTM5MTUwNDA4fQ.1pMQQ2M4eBztXW3r-1pYgFNjhf7vIERBcneAXt_83-0,
+2018-10-10 15:05:23.516  DEBUG http-nio-8080-exec-3@  com.oss.checkout.config.filter.CommonFilter[doFilterInternal:45] - 请求header信息:host:localhost:8080,connection:keep-alive,cache-control:max-age=0,upgrade-insecure-requests:1,user-agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36,accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,accept-encoding:gzip, deflate, br,accept-language:zh-CN,zh;q=0.9,cookie:_ga=GA1.1.729985436.1537175227; Idea-817e1006=0a3ec97a-d53f-4a48-9df0-4d54b32e5d81; Authorization=bearer:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyTmFtZSI6InBhbiIsImlzcyI6Imttb2JpbGUiLCJhdWQiOiJjNjI0MWM2MWIzM2Y0YThmNzIxN2ZlZDQzM2ZmODgwMyIsImV4cCI6MTUzOTE1NDAwOCwibmJmIjoxNTM5MTUwNDA4fQ.1pMQQ2M4eBztXW3r-1pYgFNjhf7vIERBcneAXt_83-0,
+2018-10-10 15:07:21.509  INFO Thread-13@  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext[doClose:984] - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4bf48f6: startup date [Wed Oct 10 15:04:48 CST 2018]; root of context hierarchy
+2018-10-10 15:07:21.512  INFO Thread-13@  org.springframework.context.support.DefaultLifecycleProcessor[stop:358] - Stopping beans in phase 2147483647
+2018-10-10 15:07:21.514  INFO Thread-13@  org.springframework.jmx.export.annotation.AnnotationMBeanExporter[destroy:449] - Unregistering JMX-exposed beans on shutdown
+2018-10-10 15:10:19.497  INFO main@  com.oss.checkout.Bootstrap[logStarting:48] - Starting Bootstrap on yuedeMacBook-Pro.local with PID 11356 (/Users/yuepan/git_project/springboot_template/oss-boot/target/classes started by yuepan in /Users/yuepan/git_project/springboot_template)
+2018-10-10 15:10:19.500  DEBUG main@  com.oss.checkout.Bootstrap[logStarting:51] - Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2018-10-10 15:10:19.500  INFO main@  com.oss.checkout.Bootstrap[logStartupProfileInfo:593] - No active profile set, falling back to default profiles: default
+2018-10-10 15:10:19.595  INFO main@  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext[prepareRefresh:583] - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@60410cd: startup date [Wed Oct 10 15:10:19 CST 2018]; root of context hierarchy
+2018-10-10 15:10:19.781  DEBUG background-preinit@  org.jboss.logging[logProvider:160] - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+2018-10-10 15:10:19.834  DEBUG background-preinit@  org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver[detectJPA:70] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-10-10 15:10:21.907  DEBUG main@  org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver[detectJPA:70] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-10-10 15:10:21.919  DEBUG main@  org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver[detectJPA:70] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-10-10 15:10:21.923  DEBUG main@  org.hibernate.validator.internal.engine.ConfigurationImpl[messageInterpolator:163] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-10-10 15:10:21.924  DEBUG main@  org.hibernate.validator.internal.engine.ConfigurationImpl[constraintValidatorFactory:185] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-10-10 15:10:21.926  DEBUG main@  org.hibernate.validator.internal.engine.ConfigurationImpl[parameterNameProvider:199] - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy57
+2018-10-10 15:10:21.928  DEBUG main@  org.hibernate.validator.internal.xml.ValidationXmlParser[getValidationXmlInputStream:99] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-10-10 15:10:21.929  DEBUG main@  org.hibernate.validator.internal.xml.ResourceLoaderHelper[getResettableInputStreamForPath:47] - Trying to load META-INF/validation.xml via user class loader
+2018-10-10 15:10:21.931  DEBUG main@  org.hibernate.validator.internal.xml.ResourceLoaderHelper[getResettableInputStreamForPath:54] - Trying to load META-INF/validation.xml via TCCL
+2018-10-10 15:10:21.931  DEBUG main@  org.hibernate.validator.internal.xml.ResourceLoaderHelper[getResettableInputStreamForPath:60] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-10-10 15:10:21.931  DEBUG main@  org.hibernate.validator.internal.xml.ValidationXmlParser[getValidationXmlInputStream:106] - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-10-10 15:10:22.180  INFO main@  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer[initialize:89] - Tomcat initialized with port(s): 8080 (http)
+2018-10-10 15:10:22.188  INFO main@  org.apache.catalina.core.StandardService[log:179] - Starting service [Tomcat]
+2018-10-10 15:10:22.189  INFO main@  org.apache.catalina.core.StandardEngine[log:179] - Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-10-10 15:10:22.256  INFO localhost-startStop-1@  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/file-management][log:179] - Initializing Spring embedded WebApplicationContext
+2018-10-10 15:10:22.256  INFO localhost-startStop-1@  org.springframework.web.context.ContextLoader[prepareEmbeddedWebApplicationContext:276] - Root WebApplicationContext: initialization completed in 2662 ms
+2018-10-10 15:10:22.357  INFO localhost-startStop-1@  org.springframework.boot.web.servlet.ServletRegistrationBean[onStartup:190] - Mapping servlet: 'dispatcherServlet' to [/]
+2018-10-10 15:10:22.361  INFO localhost-startStop-1@  org.springframework.boot.web.servlet.FilterRegistrationBean[configure:258] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-10-10 15:10:22.361  INFO localhost-startStop-1@  org.springframework.boot.web.servlet.FilterRegistrationBean[configure:258] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-10-10 15:10:22.362  INFO localhost-startStop-1@  org.springframework.boot.web.servlet.FilterRegistrationBean[configure:258] - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-10-10 15:10:22.362  INFO localhost-startStop-1@  org.springframework.boot.web.servlet.FilterRegistrationBean[configure:258] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-10-10 15:10:22.362  INFO localhost-startStop-1@  org.springframework.boot.web.servlet.FilterRegistrationBean[configure:258] - Mapping filter: 'commonFilter' to: [/*]
+2018-10-10 15:10:22.384  DEBUG localhost-startStop-1@  com.oss.checkout.config.filter.CommonFilter$$EnhancerBySpringCGLIB$$d3f6e308[init:208] - Initializing filter 'commonFilter'
+2018-10-10 15:10:22.384  DEBUG localhost-startStop-1@  com.oss.checkout.config.filter.CommonFilter$$EnhancerBySpringCGLIB$$d3f6e308[init:239] - Filter 'commonFilter' configured successfully
+2018-10-10 15:10:22.751  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/oss/v1/resouce/],methods=[POST]}" onto public java.lang.String com.oss.checkout.business.oss.controller.OssOperateController.uploadFile(com.service.checkout.oss.model.OssUploadRequest) throws java.lang.Exception
+2018-10-10 15:10:22.753  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/oss/v1/resouce/],methods=[GET]}" onto public java.lang.String com.oss.checkout.business.oss.controller.OssOperateController.getDownloadUrl(com.service.checkout.oss.model.OssGetUrlRequest)
+2018-10-10 15:10:22.754  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/oss/v1/resouce/flow],methods=[POST]}" onto public java.lang.String com.oss.checkout.business.oss.controller.OssOperateController.uploadFileFlow(com.service.checkout.oss.model.OssFlowUploadRequest) throws java.lang.Exception
+2018-10-10 15:10:22.754  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/oss/v1/resouce/flow],methods=[GET]}" onto public void com.oss.checkout.business.oss.controller.OssOperateController.downloadFileFlow(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2018-10-10 15:10:22.755  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2018-10-10 15:10:22.758  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-10-10 15:10:22.759  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-10-10 15:10:22.759  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-10-10 15:10:22.762  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-10 15:10:22.763  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping[register:543] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-10 15:10:22.906  DEBUG main@  org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver[detectJPA:70] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-10-10 15:10:22.913  DEBUG main@  org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver[detectJPA:70] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-10-10 15:10:22.914  DEBUG main@  org.hibernate.validator.internal.engine.ConfigurationImpl[messageInterpolator:163] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-10-10 15:10:22.915  DEBUG main@  org.hibernate.validator.internal.engine.ConfigurationImpl[constraintValidatorFactory:185] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-10-10 15:10:22.915  DEBUG main@  org.hibernate.validator.internal.engine.ConfigurationImpl[parameterNameProvider:199] - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy57
+2018-10-10 15:10:22.915  DEBUG main@  org.hibernate.validator.internal.xml.ValidationXmlParser[getValidationXmlInputStream:99] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-10-10 15:10:22.916  DEBUG main@  org.hibernate.validator.internal.xml.ResourceLoaderHelper[getResettableInputStreamForPath:47] - Trying to load META-INF/validation.xml via user class loader
+2018-10-10 15:10:22.916  DEBUG main@  org.hibernate.validator.internal.xml.ResourceLoaderHelper[getResettableInputStreamForPath:54] - Trying to load META-INF/validation.xml via TCCL
+2018-10-10 15:10:22.916  DEBUG main@  org.hibernate.validator.internal.xml.ResourceLoaderHelper[getResettableInputStreamForPath:60] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-10-10 15:10:22.917  DEBUG main@  org.hibernate.validator.internal.xml.ValidationXmlParser[getValidationXmlInputStream:106] - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-10-10 15:10:23.022  INFO main@  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter[initControllerAdviceCache:534] - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@60410cd: startup date [Wed Oct 10 15:10:19 CST 2018]; root of context hierarchy
+2018-10-10 15:10:23.080  INFO main@  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[registerHandler:362] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-10 15:10:23.080  INFO main@  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[registerHandler:362] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-10 15:10:23.098  INFO main@  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver[initExceptionHandlerAdviceCache:273] - Detected @ExceptionHandler methods in commonAbstractController
+2018-10-10 15:10:23.119  INFO main@  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping[registerHandler:362] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-10 15:10:23.332  INFO main@  org.springframework.jmx.export.annotation.AnnotationMBeanExporter[afterSingletonsInstantiated:431] - Registering beans for JMX exposure on startup
+2018-10-10 15:10:23.340  INFO main@  org.springframework.context.support.DefaultLifecycleProcessor[start:343] - Starting beans in phase 2147483647
+2018-10-10 15:10:23.342  INFO main@  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper[start:120] - Context refreshed
+2018-10-10 15:10:23.358  INFO main@  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper[start:123] - Found 1 custom documentation plugin(s)
+2018-10-10 15:10:23.372  INFO main@  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner[scan:41] - Scanning for api listing references
+2018-10-10 15:10:23.392  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectFromReturnType:76] - Adding return parameter of type Ljava/util/Map<Ljava/lang/String;Ljava/lang/Object;>;
+2018-10-10 15:10:23.393  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:83] - Reading parameters models for handlerMethod |error|
+2018-10-10 15:10:23.395  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:94] - Finished reading parameters models for handlerMethod |error|
+2018-10-10 15:10:23.397  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider[collectApiResponses:84] - Reading parameters models for handlerMethod |error|
+2018-10-10 15:10:23.404  DEBUG main@  springfox.documentation.schema.DefaultModelProvider[modelFor:80] - Skipping model of type Ljava/lang/Object; as its either a container type, map, enum or base type, or its already been handled
+2018-10-10 15:10:23.406  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[read:74] - Did not find any parameter models for java.util.Map<java.lang.String,java.lang.Object>
+2018-10-10 15:10:23.406  DEBUG main@  springfox.documentation.schema.DefaultModelDependencyProvider[resolvedDependencies:99] - Marking base type Ljava/lang/Object; as seen
+2018-10-10 15:10:23.431  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:Map«string,object»
+2018-10-10 15:10:23.438  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method error
+2018-10-10 15:10:23.440  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:Map«string,object»
+2018-10-10 15:10:23.448  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:Map«string,object»
+2018-10-10 15:10:23.450  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method error
+2018-10-10 15:10:23.451  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:Map«string,object»
+2018-10-10 15:10:23.458  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:Map«string,object»
+2018-10-10 15:10:23.460  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method error
+2018-10-10 15:10:23.461  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:Map«string,object»
+2018-10-10 15:10:23.464  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:Map«string,object»
+2018-10-10 15:10:23.466  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method error
+2018-10-10 15:10:23.467  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:Map«string,object»
+2018-10-10 15:10:23.472  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:Map«string,object»
+2018-10-10 15:10:23.474  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method error
+2018-10-10 15:10:23.475  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:Map«string,object»
+2018-10-10 15:10:23.479  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:Map«string,object»
+2018-10-10 15:10:23.480  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method error
+2018-10-10 15:10:23.481  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:Map«string,object»
+2018-10-10 15:10:23.485  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:Map«string,object»
+2018-10-10 15:10:23.486  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method error
+2018-10-10 15:10:23.487  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:Map«string,object»
+2018-10-10 15:10:23.509  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:Map«string,object»
+2018-10-10 15:10:23.510  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method error
+2018-10-10 15:10:23.511  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:Map«string,object»
+2018-10-10 15:10:23.532  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectFromReturnType:76] - Adding return parameter of type Lorg/springframework/web/servlet/ModelAndView;
+2018-10-10 15:10:23.533  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:83] - Reading parameters models for handlerMethod |errorHtml|
+2018-10-10 15:10:23.534  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:94] - Finished reading parameters models for handlerMethod |errorHtml|
+2018-10-10 15:10:23.535  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider[collectApiResponses:84] - Reading parameters models for handlerMethod |errorHtml|
+2018-10-10 15:10:23.555  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property view
+2018-10-10 15:10:23.560  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getView
+2018-10-10 15:10:23.562  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForSerialization:60] - Name 'view' renamed to 'view'
+2018-10-10 15:10:23.563  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property view to model
+2018-10-10 15:10:23.563  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getView
+2018-10-10 15:10:23.563  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getView
+2018-10-10 15:10:23.564  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getView
+2018-10-10 15:10:23.566  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getView
+2018-10-10 15:10:23.569  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property model
+2018-10-10 15:10:23.569  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModel
+2018-10-10 15:10:23.570  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForSerialization:60] - Name 'model' renamed to 'model'
+2018-10-10 15:10:23.570  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property model to model
+2018-10-10 15:10:23.570  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModel
+2018-10-10 15:10:23.570  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModel
+2018-10-10 15:10:23.570  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModel
+2018-10-10 15:10:23.570  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModel
+2018-10-10 15:10:23.571  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property status
+2018-10-10 15:10:23.571  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getStatus
+2018-10-10 15:10:23.571  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForSerialization:60] - Name 'status' renamed to 'status'
+2018-10-10 15:10:23.571  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property status to model
+2018-10-10 15:10:23.571  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getStatus
+2018-10-10 15:10:23.571  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getStatus
+2018-10-10 15:10:23.571  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getStatus
+2018-10-10 15:10:23.572  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getStatus
+2018-10-10 15:10:23.615  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property empty
+2018-10-10 15:10:23.615  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isEmpty
+2018-10-10 15:10:23.615  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForSerialization:60] - Name 'empty' renamed to 'empty'
+2018-10-10 15:10:23.616  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property empty to model
+2018-10-10 15:10:23.616  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isEmpty
+2018-10-10 15:10:23.616  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isEmpty
+2018-10-10 15:10:23.616  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isEmpty
+2018-10-10 15:10:23.616  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isEmpty
+2018-10-10 15:10:23.616  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property viewName
+2018-10-10 15:10:23.617  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getViewName
+2018-10-10 15:10:23.617  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForSerialization:60] - Name 'viewName' renamed to 'viewName'
+2018-10-10 15:10:23.617  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property viewName to model
+2018-10-10 15:10:23.617  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getViewName
+2018-10-10 15:10:23.617  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getViewName
+2018-10-10 15:10:23.618  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getViewName
+2018-10-10 15:10:23.618  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getViewName
+2018-10-10 15:10:23.618  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property reference
+2018-10-10 15:10:23.618  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isReference
+2018-10-10 15:10:23.618  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForSerialization:60] - Name 'reference' renamed to 'reference'
+2018-10-10 15:10:23.618  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property reference to model
+2018-10-10 15:10:23.618  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isReference
+2018-10-10 15:10:23.619  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isReference
+2018-10-10 15:10:23.619  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isReference
+2018-10-10 15:10:23.619  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member isReference
+2018-10-10 15:10:23.619  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property modelMap
+2018-10-10 15:10:23.619  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModelMap
+2018-10-10 15:10:23.619  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForSerialization:60] - Name 'modelMap' renamed to 'modelMap'
+2018-10-10 15:10:23.620  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property modelMap to model
+2018-10-10 15:10:23.620  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModelMap
+2018-10-10 15:10:23.620  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModelMap
+2018-10-10 15:10:23.620  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModelMap
+2018-10-10 15:10:23.620  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getModelMap
+2018-10-10 15:10:23.627  DEBUG main@  springfox.documentation.schema.DefaultModelProvider[modelFor:86] - Inferred 7 properties. Properties found empty, model, modelMap, reference, status, view, viewName
+2018-10-10 15:10:23.628  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[read:69] - Generated parameter model id: ModelAndView, name: ModelAndView, schema: {} models
+2018-10-10 15:10:23.628  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[mergeModelMap:87] - Adding a new model with key ModelAndView
+2018-10-10 15:10:23.629  DEBUG main@  springfox.documentation.schema.DefaultModelDependencyProvider[resolvedPropertiesAndFields:139] - Adding type Lorg/springframework/ui/ModelMap; for parameter modelMap
+2018-10-10 15:10:23.630  DEBUG main@  springfox.documentation.schema.DefaultModelDependencyProvider[maybeFromMapValueType:196] - Recursively resolving dependencies for value type Ljava/lang/Object;
+2018-10-10 15:10:23.630  DEBUG main@  springfox.documentation.schema.DefaultModelDependencyProvider[resolvedDependencies:99] - Marking base type Ljava/lang/Object; as seen
+2018-10-10 15:10:23.630  DEBUG main@  springfox.documentation.schema.DefaultModelDependencyProvider[resolvedPropertiesAndFields:139] - Adding type Lorg/springframework/web/servlet/View; for parameter view
+2018-10-10 15:10:23.630  DEBUG main@  springfox.documentation.schema.DefaultModelDependencyProvider[maybeFromRegularType:168] - Recursively resolving dependencies for type Lorg/springframework/web/servlet/View;
+2018-10-10 15:10:23.631  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property contentType
+2018-10-10 15:10:23.631  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getContentType
+2018-10-10 15:10:23.631  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForSerialization:60] - Name 'contentType' renamed to 'contentType'
+2018-10-10 15:10:23.631  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property contentType to model
+2018-10-10 15:10:23.631  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getContentType
+2018-10-10 15:10:23.631  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getContentType
+2018-10-10 15:10:23.632  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getContentType
+2018-10-10 15:10:23.632  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:70] - Evaluating unwrapped getter for member getContentType
+2018-10-10 15:10:23.632  DEBUG main@  springfox.documentation.schema.DefaultModelProvider[modelFor:86] - Inferred 1 properties. Properties found contentType
+2018-10-10 15:10:23.632  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[mergeModelMap:87] - Adding a new model with key View
+2018-10-10 15:10:23.634  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:ModelAndView
+2018-10-10 15:10:23.636  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method errorHtml
+2018-10-10 15:10:23.637  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:ModelAndView
+2018-10-10 15:10:23.643  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:ModelAndView
+2018-10-10 15:10:23.644  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method errorHtml
+2018-10-10 15:10:23.645  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:ModelAndView
+2018-10-10 15:10:23.647  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:ModelAndView
+2018-10-10 15:10:23.648  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method errorHtml
+2018-10-10 15:10:23.649  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:ModelAndView
+2018-10-10 15:10:23.651  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:ModelAndView
+2018-10-10 15:10:23.654  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method errorHtml
+2018-10-10 15:10:23.656  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:ModelAndView
+2018-10-10 15:10:23.659  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:ModelAndView
+2018-10-10 15:10:23.660  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method errorHtml
+2018-10-10 15:10:23.661  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:ModelAndView
+2018-10-10 15:10:23.664  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:ModelAndView
+2018-10-10 15:10:23.665  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method errorHtml
+2018-10-10 15:10:23.669  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:ModelAndView
+2018-10-10 15:10:23.672  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:ModelAndView
+2018-10-10 15:10:23.673  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method errorHtml
+2018-10-10 15:10:23.674  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:ModelAndView
+2018-10-10 15:10:23.677  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:ModelAndView
+2018-10-10 15:10:23.678  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method errorHtml
+2018-10-10 15:10:23.681  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:ModelAndView
+2018-10-10 15:10:23.702  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectFromReturnType:76] - Adding return parameter of type V
+2018-10-10 15:10:23.702  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:83] - Reading parameters models for handlerMethod |downloadFileFlow|
+2018-10-10 15:10:23.703  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:94] - Finished reading parameters models for handlerMethod |downloadFileFlow|
+2018-10-10 15:10:23.703  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider[collectApiResponses:84] - Reading parameters models for handlerMethod |downloadFileFlow|
+2018-10-10 15:10:23.704  DEBUG main@  springfox.documentation.schema.DefaultModelProvider[modelFor:80] - Skipping model of type V as its either a container type, map, enum or base type, or its already been handled
+2018-10-10 15:10:23.704  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[read:74] - Did not find any parameter models for void
+2018-10-10 15:10:23.706  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:null
+2018-10-10 15:10:23.707  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method downloadFileFlow
+2018-10-10 15:10:23.711  DEBUG main@  springfox.documentation.swagger.readers.operation.VendorExtensionsReader[apply:59] - Extension count 1 for method downloadFileFlow
+2018-10-10 15:10:23.712  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectFromReturnType:76] - Adding return parameter of type Ljava/lang/String;
+2018-10-10 15:10:23.712  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:83] - Reading parameters models for handlerMethod |getDownloadUrl|
+2018-10-10 15:10:23.713  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:94] - Finished reading parameters models for handlerMethod |getDownloadUrl|
+2018-10-10 15:10:23.713  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider[collectApiResponses:84] - Reading parameters models for handlerMethod |getDownloadUrl|
+2018-10-10 15:10:23.713  DEBUG main@  springfox.documentation.schema.DefaultModelProvider[modelFor:80] - Skipping model of type Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+2018-10-10 15:10:23.714  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[read:74] - Did not find any parameter models for java.lang.String
+2018-10-10 15:10:23.714  DEBUG main@  springfox.documentation.schema.DefaultModelDependencyProvider[resolvedDependencies:99] - Marking base type Ljava/lang/String; as seen
+2018-10-10 15:10:23.722  DEBUG main@  springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander[expand:82] - Expanding parameter type: com.service.checkout.oss.model.OssGetUrlRequest
+2018-10-10 15:10:23.726  DEBUG main@  springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander[simpleFields:146] - Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4f3e65f4
+2018-10-10 15:10:23.726  DEBUG main@  springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander[simpleFields:149] - Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@4f3e65f4, with type: 
+2018-10-10 15:10:23.729  DEBUG main@  springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander[simpleFields:146] - Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6905d030
+2018-10-10 15:10:23.729  DEBUG main@  springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander[simpleFields:149] - Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@6905d030, with type: 
+2018-10-10 15:10:23.729  DEBUG main@  springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander[simpleFields:146] - Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@641ab175
+2018-10-10 15:10:23.729  DEBUG main@  springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander[simpleFields:149] - Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@641ab175, with type: 
+2018-10-10 15:10:23.730  DEBUG main@  springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander[simpleFields:146] - Attempting to expand field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@3bc33ad9
+2018-10-10 15:10:23.730  DEBUG main@  springfox.documentation.spring.web.readers.parameter.ModelAttributeParameterExpander[simpleFields:149] - Building parameter for field: springfox.documentation.spring.web.readers.parameter.ModelAttributeField@3bc33ad9, with type: 
+2018-10-10 15:10:23.731  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:string
+2018-10-10 15:10:23.732  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method getDownloadUrl
+2018-10-10 15:10:23.733  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:string
+2018-10-10 15:10:23.734  DEBUG main@  springfox.documentation.swagger.readers.operation.VendorExtensionsReader[apply:59] - Extension count 1 for method getDownloadUrl
+2018-10-10 15:10:23.735  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectFromReturnType:76] - Adding return parameter of type Ljava/lang/String;
+2018-10-10 15:10:23.735  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:83] - Reading parameters models for handlerMethod |uploadFile|
+2018-10-10 15:10:23.735  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:90] - Adding input parameter of type Lcom/service/checkout/oss/model/OssUploadRequest;
+2018-10-10 15:10:23.737  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:94] - Finished reading parameters models for handlerMethod |uploadFile|
+2018-10-10 15:10:23.739  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider[collectApiResponses:84] - Reading parameters models for handlerMethod |uploadFile|
+2018-10-10 15:10:23.739  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[read:74] - Did not find any parameter models for java.lang.String
+2018-10-10 15:10:23.741  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property bucketName
+2018-10-10 15:10:23.741  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setBucketName
+2018-10-10 15:10:23.742  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForDeserialization:76] - Name 'bucketName' renamed to 'bucketName'
+2018-10-10 15:10:23.742  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property bucketName to model
+2018-10-10 15:10:23.742  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setBucketName
+2018-10-10 15:10:23.742  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setBucketName
+2018-10-10 15:10:23.742  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setBucketName
+2018-10-10 15:10:23.742  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setBucketName
+2018-10-10 15:10:23.750  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property objectName
+2018-10-10 15:10:23.750  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setObjectName
+2018-10-10 15:10:23.750  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForDeserialization:76] - Name 'objectName' renamed to 'objectName'
+2018-10-10 15:10:23.750  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property objectName to model
+2018-10-10 15:10:23.750  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setObjectName
+2018-10-10 15:10:23.750  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setObjectName
+2018-10-10 15:10:23.751  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setObjectName
+2018-10-10 15:10:23.751  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setObjectName
+2018-10-10 15:10:23.751  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property shareFlag
+2018-10-10 15:10:23.751  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setShareFlag
+2018-10-10 15:10:23.751  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForDeserialization:76] - Name 'shareFlag' renamed to 'shareFlag'
+2018-10-10 15:10:23.751  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property shareFlag to model
+2018-10-10 15:10:23.752  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setShareFlag
+2018-10-10 15:10:23.752  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setShareFlag
+2018-10-10 15:10:23.752  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setShareFlag
+2018-10-10 15:10:23.752  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setShareFlag
+2018-10-10 15:10:23.752  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property content
+2018-10-10 15:10:23.753  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setContent
+2018-10-10 15:10:23.753  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForDeserialization:76] - Name 'content' renamed to 'content'
+2018-10-10 15:10:23.753  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property content to model
+2018-10-10 15:10:23.753  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setContent
+2018-10-10 15:10:23.754  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setContent
+2018-10-10 15:10:23.754  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setContent
+2018-10-10 15:10:23.754  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setContent
+2018-10-10 15:10:23.754  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[propertiesFor:122] - Reading property coveredFlag
+2018-10-10 15:10:23.755  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setCoveredFlag
+2018-10-10 15:10:23.755  DEBUG main@  springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy[nameForDeserialization:76] - Name 'coveredFlag' renamed to 'coveredFlag'
+2018-10-10 15:10:23.756  DEBUG main@  springfox.documentation.schema.property.OptimizedModelPropertiesProvider[beanModelProperty:290] - Adding property coveredFlag to model
+2018-10-10 15:10:23.756  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setCoveredFlag
+2018-10-10 15:10:23.756  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setCoveredFlag
+2018-10-10 15:10:23.756  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setCoveredFlag
+2018-10-10 15:10:23.756  DEBUG main@  springfox.documentation.schema.property.bean.BeanModelProperty[paramOrReturnType:73] - Evaluating unwrapped setter for member setCoveredFlag
+2018-10-10 15:10:23.757  DEBUG main@  springfox.documentation.schema.DefaultModelProvider[modelFor:86] - Inferred 5 properties. Properties found bucketName, content, coveredFlag, objectName, shareFlag
+2018-10-10 15:10:23.757  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[read:69] - Generated parameter model id: OssUploadRequest, name: OssUploadRequest, schema: {} models
+2018-10-10 15:10:23.757  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[mergeModelMap:87] - Adding a new model with key OssUploadRequest
+2018-10-10 15:10:23.762  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:string
+2018-10-10 15:10:23.763  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method uploadFile
+2018-10-10 15:10:23.763  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:string
+2018-10-10 15:10:23.764  DEBUG main@  springfox.documentation.swagger.readers.operation.VendorExtensionsReader[apply:59] - Extension count 1 for method uploadFile
+2018-10-10 15:10:23.764  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectFromReturnType:76] - Adding return parameter of type Ljava/lang/String;
+2018-10-10 15:10:23.765  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:83] - Reading parameters models for handlerMethod |uploadFileFlow|
+2018-10-10 15:10:23.765  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationModelsProvider[collectParameters:94] - Finished reading parameters models for handlerMethod |uploadFileFlow|
+2018-10-10 15:10:23.766  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider[collectApiResponses:84] - Reading parameters models for handlerMethod |uploadFileFlow|
+2018-10-10 15:10:23.766  DEBUG main@  springfox.documentation.spring.web.scanners.ApiModelReader[read:74] - Did not find any parameter models for java.lang.String
+2018-10-10 15:10:23.768  DEBUG main@  springfox.documentation.spring.web.readers.operation.OperationResponseClassReader[apply:64] - Setting spring response class to:string
+2018-10-10 15:10:23.769  DEBUG main@  springfox.documentation.swagger.readers.operation.OperationAuthReader[apply:99] - Authorization count 0 for method uploadFileFlow
+2018-10-10 15:10:23.769  DEBUG main@  springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader[apply:73] - Setting response class to:string
+2018-10-10 15:10:23.770  DEBUG main@  springfox.documentation.swagger.readers.operation.VendorExtensionsReader[apply:59] - Extension count 1 for method uploadFileFlow
+2018-10-10 15:10:23.844  INFO main@  org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer[start:201] - Tomcat started on port(s): 8080 (http)
+2018-10-10 15:10:23.850  INFO main@  com.oss.checkout.Bootstrap[logStarted:57] - Started Bootstrap in 5.093 seconds (JVM running for 6.369)
+2018-10-10 15:10:38.901  INFO http-nio-8080-exec-1@  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/file-management][log:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-10-10 15:10:38.902  INFO http-nio-8080-exec-1@  org.springframework.web.servlet.DispatcherServlet[initServletBean:489] - FrameworkServlet 'dispatcherServlet': initialization started
+2018-10-10 15:10:38.917  INFO http-nio-8080-exec-1@  org.springframework.web.servlet.DispatcherServlet[initServletBean:508] - FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2018-10-10 15:10:38.928  DEBUG http-nio-8080-exec-1@  com.oss.checkout.config.filter.CommonFilter[doFilterInternal:45] - 请求header信息:host:localhost:8080,connection:keep-alive,cache-control:max-age=0,upgrade-insecure-requests:1,user-agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36,accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,accept-encoding:gzip, deflate, br,accept-language:zh-CN,zh;q=0.9,cookie:_ga=GA1.1.729985436.1537175227; Idea-817e1006=0a3ec97a-d53f-4a48-9df0-4d54b32e5d81; Authorization=bearer:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyTmFtZSI6InBhbiIsImlzcyI6Imttb2JpbGUiLCJhdWQiOiJjNjI0MWM2MWIzM2Y0YThmNzIxN2ZlZDQzM2ZmODgwMyIsImV4cCI6MTUzOTE1NDAwOCwibmJmIjoxNTM5MTUwNDA4fQ.1pMQQ2M4eBztXW3r-1pYgFNjhf7vIERBcneAXt_83-0,
+2018-10-10 15:10:46.010  DEBUG idle_connection_reaper@  com.aliyun.oss[run:72] - Shutting down reaper thread.
